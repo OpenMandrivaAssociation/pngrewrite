@@ -9,6 +9,7 @@ License:	GPL
 Group:		Graphics
 Source0:	%{name}-%{version}.tar.bz2
 URL:		http://entropymine.com/jason/pngrewrite/
+Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Summary:	PNG size optimizer
 BuildRequires:	png-devel
 
