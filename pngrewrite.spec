@@ -1,6 +1,6 @@
 %define name	pngrewrite
 %define version	1.2.1
-%define release	%mkrel 3
+%define release	%mkrel 5
 
 Name:		%{name}
 Version:	%{version}
