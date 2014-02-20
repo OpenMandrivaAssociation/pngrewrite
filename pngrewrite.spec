@@ -1,9 +1,9 @@
 Name:		pngrewrite
-Version:	1.3.0
-Release:	2
+Version:	1.4.0
+Release:	1
 License:	GPL
 Group:		Graphics
-Source0:	%{name}-%{version}.tar.bz2
+Source0:	%{name}-%{version}.tar.xz
 URL:		http://entropymine.com/jason/pngrewrite/
 Summary:	PNG size optimizer
 BuildRequires:	pkgconfig(libpng)
