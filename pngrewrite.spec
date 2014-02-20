@@ -19,7 +19,7 @@ on a web site.
 %setup -q
 
 %build
-%make CFLAGS="%{optflags}"
+%make CFLAGS="%{optflags}" LDFLAGS="%{ldflags}"
 
 %install
 install -m755 %{name} -D %{buildroot}%{_bindir}/%{name}
