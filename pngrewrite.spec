@@ -1,7 +1,7 @@
 Name:		pngrewrite
 Version:	1.4.0
 Release:	1
-License:	GPL
+License:	BSD
 Group:		Graphics
 Source0:	%{name}-%{version}.tar.xz
 URL:		http://entropymine.com/jason/pngrewrite/
@@ -25,4 +25,5 @@ on a web site.
 install -m755 %{name} -D %{buildroot}%{_bindir}/%{name}
 
 %files
+%doc readme.txt
 %{_bindir}/%{name}
