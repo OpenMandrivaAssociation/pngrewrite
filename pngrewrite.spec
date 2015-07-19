@@ -1,6 +1,6 @@
 Name:		pngrewrite
 Version:	1.4.0
-Release:	4
+Release:	5
 License:	BSD
 Group:		Graphics
 Source0:	%{name}-%{version}.tar.xz
