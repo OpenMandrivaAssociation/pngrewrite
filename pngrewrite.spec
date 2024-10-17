@@ -4,7 +4,7 @@ Release:	7
 License:	BSD
 Group:		Graphics
 Source0:	%{name}-%{version}.tar.xz
-URL:		http://entropymine.com/jason/pngrewrite/
+URL:		https://entropymine.com/jason/pngrewrite/
 Summary:	PNG size optimizer
 BuildRequires:	pkgconfig(libpng)
 
